@@ -2,7 +2,6 @@ function Star(isChecked) {
     const div = document.createElement('div')
     div.className = 'fa fa-star'
     if (isChecked) {
-        // div.className += 'checked' 
         div.classList.add('checked')
     }
     return div
